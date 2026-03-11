@@ -9,17 +9,17 @@ from openpyxl.styles import Font, Alignment
 # ======================
 # 1) 配置
 # ======================
-TARGET_YEAR = 2025
+TARGET_YEAR = 2026
 folder_path = os.getcwd()
 
 CONFIG = {
     "summer_time_start": 501,      # 夏令时开始日期（5月1日）
-    "winter_break": (120, 225),    # 寒假（MMDD）
+    "winter_break": (129, 228),    # 寒假（MMDD）
     "summer_break": (701, 831),    # 暑假（MMDD）
     "duration": {
         "summer": 0.5,
-        "winter": 1.0,
-        "friday_work_day": 3,  # 周五额外加课
+        "winter": 0.5,
+        "friday_work_day": 3.5,  # 周五额外加课
         "holiday": 8.0
     }
 }
