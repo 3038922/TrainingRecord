@@ -30,7 +30,7 @@ OUTPUT_DIR = "训练记录输出"
 
 # True = 只生成2月，便于调试
 # False = 生成1月~12月
-ONLY_TEST_FEBRUARY = True
+ONLY_TEST_FEBRUARY = False
 
 MONTH_SHEET_NAMES = {
     1: "1月",
